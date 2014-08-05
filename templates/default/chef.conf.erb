@@ -1,0 +1,7 @@
+# Do not modify this file.
+# Chef will overwrite any changes
+
+[SeatDefaults]
+<%- @seatdefaults.each do |k, v| %>
+<%= k %> = <%= v %>
+<%- end %>
